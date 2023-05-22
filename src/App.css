@@ -1,0 +1,168 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #0d0d58aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #0c9cb6aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #eeeeee;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #2f25b9;
+  color: #030303;
+}
+
+tr:nth-child(even) {
+  background-color: #35053f;
+}
+
+button {
+  background-color: #4c5baf;
+  border: none;
+  color: rgb(218, 233, 4);
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 25px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 70px #000000, 0 0 80px #0a0b0c, 0 0 100px #020303, 0 0 150px #040408;
+}
+
+tr:hover {
+  background-color: #2fb336;
+}
+
+.edit-container {
+  display: flex;
+  align-items: center;
+}
+
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #363636,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px rgb(231, 238, 238);
+}
+
+.neon:hover {
+  color: #0ff;
+  text-shadow:
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px rgba(30, 255, 0, 0.863);
+}
+
+.edit-text {
+  margin-left: 0.5rem; 
+}
+
+
+h1 {
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+.neon-title {
+  color: #531188;
+  text-shadow: 0 0 2px #140d0d,
+               0 0 4px #fff,
+               0 0 8px #fff,
+               0 0 16px #0ff,
+               0 0 32px #0ff,
+               0 0 36px #0ff,
+               0 0 40px rgb(1, 250, 229);
+  animation: neon-animation 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon-animation {
+  from {
+    text-shadow: 0 0 2px #080606,
+                 0 0 4px #fff,
+                 0 0 8px #fff,
+                 0 0 16px #0ff,
+                 0 0 32px #0ff,
+                 0 0 36px #0ff,
+                 0 0 40px #0ff;
+  }
+  to {
+    text-shadow: 0 0 4px #160e0e,
+                 0 0 8px #fff,
+                 0 0 12px #fff,
+                 0 0 24px #0ff,
+                 0 0 48px #0ff,
+                 0 0 56px #0ff,
+                 0 0 64px #0ff;
+  }
+}
+
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #363636,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px rgb(231, 238, 238);
+}
